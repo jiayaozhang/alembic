@@ -226,6 +226,8 @@ ENDIF()
 # BUILD LIBRARIES
 #-******************************************************************************
 
+include_directories(/usr/include/hdf5/serial/)
+
 # Alembic
 IF (ALEMBIC_BUILD_LIBS)
     ADD_SUBDIRECTORY(lib)
